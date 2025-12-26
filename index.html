@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPAR ROBLOX SYSTEM - KHANGKHAN99</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="led-container">
+        <div class="led-border">
+            <marquee behavior="scroll" direction="left" scrollamount="7" id="led-unit">
+                HỆ THỐNG QUẢN LÝ QUÂN SỐ ROBLOX - ĐƠN VỊ: TÁC CHIẾN KHÔNG GIAN MẠNG - BẢN QUYỀN VPAR KHANGKHAN99
+            </marquee>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <div class="logo-box">
+                <img src="logo.png" alt="Logo" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Vietnam_People%27s_Army_Logo.svg/1200px-Vietnam_People%27s_Army_Logo.svg.png'">
+            </div>
+            <h1>BẢNG TRA CỨU ĐIỂM POINT ROBLOX</h1>
+            <p class="sub-title">Hệ thống quản lý 500 User - Version 1.0.1 khangkhan99</p>
+        </header>
+
+        <div class="dashboard">
+            <div class="stat-box">Tổng User: <span id="total-user">500</span></div>
+            <div class="stat-box">Trạng thái: <span style="color: #00ff00;">Sẵn sàng</span></div>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm Username Roblox hoặc ID quân nhân...">
+        </div>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Username Roblox</th>
+                        <th>ID Quân Số</th>
+                        <th>Cấp Bậc</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody id="user-list">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
